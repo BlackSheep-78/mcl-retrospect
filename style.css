@@ -1,0 +1,52 @@
+/* raleway-regular - latin */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/raleway-v34-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('fonts/raleway-v34-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/raleway-v34-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/raleway-v34-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('fonts/raleway-v34-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/raleway-v34-latin-regular.svg#Raleway') format('svg'); /* Legacy iOS */
+  }
+
+:root 
+{
+    --dark-color: #555555;
+    --font-size: 16px;
+    --padding: 10px;
+}
+
+a{
+    text-decoration:none;
+}
+body{
+    background-color: #eee;
+    font-family: 'Raleway';
+}
+#bandeau{
+    background-image: url(images-retrospect/banner.jpg);
+    background-size:cover;
+    min-height:450px;
+}
+.monbouton,.monbouton:hover{
+    background-color: rgb(24, 118, 104) !important;
+}
+
+/* boutons des posts */
+.couleurBouton{
+    color:#518aa4;
+    border-color:#518aa4;
+}
+
+.couleurBouton:hover{
+    background-color: #518aa4;
+    color:white;
+    border-color:#518aa4;
+}
+
+.sejours-header{
+    background-color: var(--dark-color);
+}
